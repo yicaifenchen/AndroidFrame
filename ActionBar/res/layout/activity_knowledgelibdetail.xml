@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/login_bg" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <include layout="@layout/action_bar" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/knowledgelib_tag_yellow"
+                android:gravity="center"
+                android:text="文章类"
+                android:textColor="#fff"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="2px"
+                android:layout_marginLeft="14dip"
+                android:layout_marginRight="15dip"
+                android:layout_marginTop="-6px"
+                android:background="#ebb90b" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dip"
+                android:layout_marginTop="15dip"
+                android:gravity="center_horizontal"
+                android:text="文章类"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="2px"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:background="#dcdcdc" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="5dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="发布时间:"
+                    android:textColor="#9c9c9c"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:text="2014-10-24 07:24"
+                    android:textColor="#9c9c9c"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:lineSpacingExtra="5dip"
+                android:paddingLeft="15dip"
+                android:paddingRight="15dip"
+                android:text="2014-10-24 07:2478979874f89ds707:2478979874f89ds7498f7d8s74fd4s8f4d5s64f65d4s56f4ds64f5ds6498f7d8s74fd4s8f4d5s64f65d4s56f4ds64f5ds6"
+                android:textColor="#9c9c9c"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_weight="0"
+            android:background="#fff"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edtingline_solid_line" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
